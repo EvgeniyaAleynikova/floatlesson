@@ -1,0 +1,237 @@
+/* -----------------------------------------
+ GLOBAL
+----------------------------------------- */
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body, html {
+    min-height: 100%;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #9ca2b4;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+/* -----------------------------------------
+ header
+----------------------------------------- */
+header{
+	height: 170px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	li{
+		list-style: none;
+		display: inline-block;
+		height: 35px;
+		line-height: 35px;
+		margin-right: 60px;
+		a{
+			display: block;
+			text-decoration: none;
+			color: #000000;
+			font-size: 18px;
+		}
+
+	}
+	li:hover{
+		border-bottom: 6px solid #f2f2f2;
+	}
+}
+/* -----------------------------------------
+ main-slider
+----------------------------------------- */
+#main-slider{
+	height: 936px;
+	.main-container{
+	width: 100%;
+	height: 936px;
+	position: relative;
+	.main-slider{
+		z-index: 2;
+		width: 100%;
+		position: relative;
+		
+		.slides{
+			.slide-number{
+				background-color:  #97d1eb;
+				width: 193px;
+				height: 193px;
+				color:  #ffffff;
+				font-size: 72px;
+				line-height: 193px;
+				text-align: center;
+				display: inline-block;
+				margin-top: 290px;
+				margin-left: 140px;
+			}
+			.slide-content{
+				display: inline-block;
+				width: 732px;
+				
+				h3{
+					color:  #000000;
+					font-size: 92px;
+					line-height: 125px;
+					margin: 0 20px 30px 0;
+				}
+				span{
+					display: block;
+					width: 745px;
+					height: 15px;
+					background-color:  #97d1eb;
+				}
+			}
+		}
+	}
+	.main-bg-image{
+		height: 936px;
+		position: absolute;
+		right: -10px;
+		width: 70%;
+		z-index: 1;
+		background-image: url('../img/main-slider-bg.jpg');
+		background-size: cover;
+	}
+}
+}
+
+/* -----------------------------------------
+about-us
+----------------------------------------- */
+#about-us{
+	height: 670px;
+	.about-us-left{
+	width: 49%;
+	
+	display: inline-block;
+		.left-content{
+			width: 85%;
+			h3{
+			color:  #bcc1cd;
+			font-size: 72px;
+			margin: 0;
+			}
+			p{
+			font-family: 'Montserrat', sans-serif;
+			color:  #9ca2b4;
+			font-size: 14px;
+			line-height: 48px;
+			}
+		}
+		
+	}
+	.about-us-right{
+	width: 49%;
+	display: inline-block;
+		.right-content{
+			height:480px;
+			margin-right: -50px;
+			background-image: url('../img/about-us-image.jpg');
+			background-position: right;
+			background-repeat: no-repeat;
+			.cotent-title{
+				width: 550px;
+				vertical-align: middle;
+				h3{
+				color:  #000000;
+				font-size: 105px;
+
+				}
+			}
+		}
+		
+	}
+}
+/* -----------------------------------------
+blocks
+----------------------------------------- */
+#blocks{
+	height: 500px;
+	.block1{
+		width: 25%;
+		height: 760px;
+		float: left;
+		background-image: url('../img/Idea.jpg');
+		a{
+			display: block;
+			height: 740px; 
+			line-height: 740px;
+			color:  #ffffff;
+			font-size: 60px;
+			text-decoration: none;
+		}
+		
+	}
+	.block2{
+		width: 25%;
+		height: 760px;
+		float: left;
+		background-image: url('../img/Concept.jpg');
+		a{
+			display: block;
+			height: 740px; 
+			line-height: 740px;
+			color:  #ffffff;
+			font-size: 60px;
+			text-decoration: none;
+		}
+		
+	}
+	.block3{
+		width: 25%;
+		height: 760px;
+		float: left;
+		background-image: url('../img/Design.jpg');
+		a{
+			display: block;
+			height: 740px; 
+			line-height: 740px;
+			color:  #ffffff;
+			font-size: 60px;
+			text-decoration: none;
+		}
+		
+	}
+	.block4{
+		width: 25%;
+		height: 760px;
+		float: left;
+		background-image: url('../img/Develop.jpg');
+		a{
+			display: block;
+			height: 740px; 
+			line-height: 740px;
+			color:  #ffffff;
+			font-size: 60px;
+			text-decoration: none;
+		}
+		
+	}
+
+}
+/* -----------------------------------------
+footer
+----------------------------------------- */
+footer{
+	background-color:  #0f0f0f;
+	width: 100%;
+	img{
+		margin-left: 45%;
+	}
+}
